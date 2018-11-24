@@ -7749,5 +7749,7 @@ html {
 
 /* Custom Mixins -------------------- */
 /* Base Styles -------------------- */
+.nossos_clientes img {
+  max-width: 60%; }
 
 /*# sourceMappingURL=main.css.map */
