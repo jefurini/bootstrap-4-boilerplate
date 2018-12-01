@@ -7763,32 +7763,43 @@ h2 {
 
 .como_fazemos {
   padding-top: 90px;
-  background-color: #20506D; }
+  background-image: linear-gradient(-90deg, #0F2C3D, #20506D); }
   .como_fazemos p {
     color: #0F2C3D; }
 
+.card-deck {
+  margin-bottom: -250px; }
+
 .card-img-top {
-  max-width: 20%;
+  max-width: 30%;
   text-align: center;
   padding-top: 30px; }
 
 .nossos_clientes {
-  padding-top: 90px;
-  padding-bottom: 30px;
+  padding-top: 300px;
+  padding-bottom: 40px;
   background-color: #CEAA46; }
   .nossos_clientes img {
     max-width: 35%;
     display: inline-block; }
+  @media only screen and (max-width: 915px) {
+    .nossos_clientes {
+      padding-top: 250px; } }
+  @media only screen and (max-width: 425px) {
+    .nossos_clientes {
+      max-with: 55%; } }
 
 .quero_conhecer {
-  padding-top: 90px; }
+  padding-top: 90px;
+  padding-bottom: 30px; }
   .quero_conhecer h3 {
     color: #133D5B; }
   .quero_conhecer h2 {
     color: #133D5B; }
   .quero_conhecer .btn-primary {
     background-color: #133D5B;
-    color: white; }
+    color: white;
+    border: none; }
   .quero_conhecer .btn-outline-primary {
     border-color: #133D5B;
     font-size: 12px;
@@ -7796,6 +7807,16 @@ h2 {
     color: #CEAA46; }
 
 .footer {
-  background-color: #0F2C3D; }
+  background-color: #0F2C3D;
+  color: white;
+  padding-top: 90px;
+  padding-bottom: 30px; }
+  .footer h5 {
+    text-transform: uppercase; }
+  .footer p {
+    margin-bottom: 2px; }
+  .footer img {
+    padding-top: 20px;
+    max-width: 8%; }
 
 /*# sourceMappingURL=main.css.map */
