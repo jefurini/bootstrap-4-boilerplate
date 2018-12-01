@@ -35,28 +35,40 @@ h2 {
 
 .como_fazemos {
 	padding-top: 90px;
-	background-color: #20506D;
+	background-image: linear-gradient(-90deg, #0F2C3D, #20506D);
 
 	p {
 		color: #0F2C3D;
 	}
 }
 
+.card-deck {
+	margin-bottom: -250px;
+}
+
 .card-img-top {
-	max-width: 20%;
+	max-width: 30%;
 	text-align: center;
 	padding-top: 30px;
 }
 
 
 .nossos_clientes {
-	padding-top: 90px;
-	padding-bottom: 30px;
+	padding-top: 300px;
+	padding-bottom: 40px;
 	background-color: #CEAA46;
 		
 		img {
 		max-width: 35%;
 		display: inline-block;
+		}
+
+		@media only screen and (max-width: 915px){   
+			padding-top: 250px;
+		}
+
+		@media only screen and (max-width: 425px){   
+			max-with: 55%;
 		}
 }
 
@@ -64,6 +76,7 @@ h2 {
 
 .quero_conhecer {
 	padding-top: 90px;
+	padding-bottom: 30px;
 
 		h3 {
 			color: #133D5B;
@@ -76,6 +89,7 @@ h2 {
 		.btn-primary {
 			background-color: #133D5B;
 			color: white;
+			border: none;
 		}
 
 		.btn-outline-primary{ 
@@ -84,8 +98,29 @@ h2 {
 			text-align: left;
 			color: #CEAA46;
 		}
+
 }
 
 .footer {
 	background-color: #0F2C3D;
+	color: white;
+	padding-top: 90px;
+	padding-bottom: 30px;
+
+	h5 {
+		text-transform: uppercase;
+	}
+
+	p {
+		margin-bottom: 2px;
+	}
+
+	img {
+		padding-top: 20px;
+		max-width: 8%;
+	}
+
+	.logo-footer {
+		max-width: 20%;
+	}
 }
