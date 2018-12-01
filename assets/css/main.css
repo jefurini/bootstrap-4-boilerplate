@@ -7752,4 +7752,53 @@ html {
 .nossos_clientes img {
   max-width: 60%; }
 
+h3 {
+  text-transform: uppercase;
+  line-height: 36px;
+  margin-bottom: 0;
+  color: white; }
+
+h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-bottom: 30px;
+  color: white; }
+
+.como_fazemos {
+  padding-top: 90px;
+  background-color: #20506D; }
+  .como_fazemos p {
+    color: #0F2C3D; }
+
+.card-img-top {
+  max-width: 20%;
+  text-align: center;
+  padding-top: 30px; }
+
+.nossos_clientes {
+  padding-top: 90px;
+  padding-bottom: 30px;
+  background-color: #CEAA46; }
+  .nossos_clientes img {
+    max-width: 35%;
+    display: inline-block; }
+
+.quero_conhecer {
+  padding-top: 90px; }
+  .quero_conhecer h3 {
+    color: #133D5B; }
+  .quero_conhecer h2 {
+    color: #133D5B; }
+  .quero_conhecer .btn-primary {
+    background-color: #133D5B;
+    color: white; }
+  .quero_conhecer .btn-outline-primary {
+    border-color: #133D5B;
+    font-size: 12px;
+    text-align: left;
+    color: #CEAA46; }
+
+.footer {
+  background-color: #0F2C3D; }
+
 /*# sourceMappingURL=main.css.map */
