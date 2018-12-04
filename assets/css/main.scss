@@ -18,6 +18,69 @@
 // 5 - Import layout  styles
 @import '5-layout/index';
 
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+
+body {
+     font-family: "Lato";
+}
+
+header{
+    background-image: url(/img/hero-01.png);
+    padding: 90px;
+    padding-top: 80px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+.header-conteudo {
+    text-align: center;
+    color: white;
+    padding-top: 200px;
+    padding-bottom: 150px;
+}
+
+.header-conteudo h1{
+
+    font-weight: 900;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.header-conteudo h4 {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-left: 30%;
+    padding-right: 30%;
+    font-weight: 300;
+}
+
+.botao-header { 
+    background-color: white;
+    font-size: 16px;
+    padding: 10px 70px;
+    text-align: left;
+    color: #133D5B;
+    border-radius: 10px;
+    display: inline-block;
+    font-weight: 400;
+}
+
+
+.botao-header:hover { 
+    background-color: #CEAA46;
+    font-size: 16px;
+    padding: 10px 70px;
+    text-align: left;
+    color: white;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 400;
+}
 
 h3 {
 	text-transform: uppercase; 
@@ -33,10 +96,28 @@ h2 {
 		color: white;
 }
 
-.como_fazemos {
-	padding-top: 90px;
-	background-image: linear-gradient(-90deg, #0F2C3D, #20506D);
 
+.oque_fazemos {
+    padding-top: 100px;
+    padding-bottom: 80px;
+	background-image: url(/img/ilustra.svg), linear-gradient(-90deg, #0F2C3D, #20506D);
+    background-repeat: no-repeat, repeat;
+    background-position: right top, center;
+    background-size: 57%, auto;
+}
+
+.texto_oque {
+    color: white;
+    padding-right: 650px;
+    padding-bottom: 30px;
+    
+}
+
+.como_fazemos {
+    padding-top: 20px;
+    background-image: linear-gradient(-90deg, #0F2C3D, #20506D);
+
+    
 	p {
 		color: #0F2C3D;
 	}
@@ -54,7 +135,7 @@ h2 {
 
 
 .nossos_clientes {
-	padding-top: 300px;
+	padding-top: 320px;
 	padding-bottom: 40px;
 	background-color: #CEAA46;
 		
@@ -75,8 +156,8 @@ h2 {
 
 
 .quero_conhecer {
-	padding-top: 90px;
-	padding-bottom: 30px;
+    padding-top: 100px;
+	padding-bottom: 40px;
 
 		h3 {
 			color: #133D5B;
@@ -102,10 +183,10 @@ h2 {
 }
 
 .footer {
+    padding-top: 100px;
 	background-color: #0F2C3D;
 	color: white;
-	padding-top: 90px;
-	padding-bottom: 30px;
+	padding-bottom: 40px;
 
 	h5 {
 		text-transform: uppercase;
@@ -123,4 +204,28 @@ h2 {
 	.logo-footer {
 		max-width: 20%;
 	}
+}
+
+@media (max-width: 500px) {
+    .header-conteudo {
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 20px;
+    }
+    
+    .header-conteudo h1 {
+        font-size: 30px;
+    }
+    
+    .header-conteudo h4 {
+        font-size: 20px;
+    }
+    
+    .header-topo {
+        flex-direction: column;
+    }
+    
+    .header-topo .logo {
+        order: 2;
+    }
 }
