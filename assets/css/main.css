@@ -7755,31 +7755,23 @@ body {
 
 header {
   background-image: url(/img/hero-01.png);
-  padding: 90px;
-  padding-top: 80px;
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat; }
+  @media only screen and (max-width: 425px) {
+    header img {
+      max-width: 20%; } }
 
 .header-conteudo {
   text-align: center;
   color: white;
-  padding-top: 200px;
-  padding-bottom: 150px; }
+  padding: 60px; }
 
 .header-conteudo h1 {
-  font-weight: 900;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 20%;
-  padding-right: 20%; }
+  font-weight: 900; }
 
-.header-conteudo h4 {
-  padding-top: 30px;
-  padding-bottom: 40px;
-  padding-left: 30%;
-  padding-right: 30%;
-  font-weight: 300; }
+.header-conteudo h5 {
+  margin-top: 20px; }
 
 .botao-header {
   background-color: white;
@@ -7789,7 +7781,8 @@ header {
   color: #133D5B;
   border-radius: 10px;
   display: inline-block;
-  font-weight: 400; }
+  font-weight: 400;
+  margin: 50px 0; }
 
 .botao-header:hover {
   background-color: #CEAA46;
@@ -7816,19 +7809,19 @@ h2 {
 
 .oque_fazemos {
   padding-top: 100px;
-  padding-bottom: 80px;
   background-image: url(/img/ilustra.svg), linear-gradient(-90deg, #0F2C3D, #20506D);
   background-repeat: no-repeat, repeat;
   background-position: right top, center;
   background-size: 57%, auto; }
+  @media only screen and (max-width: 425px) {
+    .oque_fazemos {
+      background-image: 45%; } }
 
 .texto_oque {
-  color: white;
-  padding-right: 650px;
-  padding-bottom: 30px; }
+  color: white; }
 
 .como_fazemos {
-  padding-top: 20px;
+  padding-top: 100px;
   background-image: linear-gradient(-90deg, #0F2C3D, #20506D); }
   .como_fazemos p {
     color: #0F2C3D; }
@@ -7857,7 +7850,8 @@ h2 {
 
 .quero_conhecer {
   padding-top: 100px;
-  padding-bottom: 40px; }
+  padding-bottom: 40px;
+  background-color: white; }
   .quero_conhecer h3 {
     color: #133D5B; }
   .quero_conhecer h2 {
@@ -7884,8 +7878,6 @@ h2 {
   .footer img {
     padding-top: 20px;
     max-width: 8%; }
-  .footer .logo-footer {
-    max-width: 20%; }
 
 @media (max-width: 500px) {
   .header-conteudo {
