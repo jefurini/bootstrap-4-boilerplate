@@ -75,7 +75,7 @@ header {
         font-weight: 400;
     }
 
-@media @media only screen and (max-width: 425px) {
+    @media only screen and (max-width: 425px) {
     .header-conteudo {
         padding: 20px;
 
@@ -188,7 +188,6 @@ h2 {
 			background-color: #133D5B;
 			color: white;
 			border: none;
-            padding-right: 0;
 		}
 
 		.btn-outline-primary{ 
@@ -196,16 +195,21 @@ h2 {
 			font-size: 12px;
 			text-align: left;
 			color: #CEAA46;
-            padding-right: 100%;
 		}
 
+        .btn-outline-primary:hover { 
+            display: inline-block;
+            text-decoration: none;
+            background-color: white;
+        }
+        
         @media only screen and (max-width: 425px){
             padding-top: 70px;
         }
 }
 
 .footer {
-    padding-top: 100px 0 40px;
+    padding: 100px 0 40px;
 	background-color: #0F2C3D;
 	color: white;
 
@@ -219,9 +223,5 @@ h2 {
 
 	img {
 		padding-top: 20px;
-		max-width: 20%;
 	}
-
-}
-
 }

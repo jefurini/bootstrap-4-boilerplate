@@ -7760,40 +7760,47 @@ header {
   background-repeat: no-repeat; }
   @media only screen and (max-width: 425px) {
     header img {
-      max-width: 20%; } }
-
-.header-conteudo {
-  text-align: center;
-  color: white;
-  padding: 60px; }
-
-.header-conteudo h1 {
-  font-weight: 900; }
-
-.header-conteudo h5 {
-  margin-top: 20px; }
-
-.botao-header {
-  background-color: white;
-  font-size: 16px;
-  padding: 10px 70px;
-  text-align: left;
-  color: #133D5B;
-  border-radius: 10px;
-  display: inline-block;
-  font-weight: 400;
-  margin: 50px 0; }
-
-.botao-header:hover {
-  background-color: #CEAA46;
-  font-size: 16px;
-  padding: 10px 70px;
-  text-align: left;
-  color: white;
-  border-radius: 10px;
-  display: inline-block;
-  text-decoration: none;
-  font-weight: 400; }
+      max-width: 20%;
+      padding-top: 20px; } }
+  header .header-conteudo {
+    text-align: center;
+    color: white;
+    padding: 100px; }
+    header .header-conteudo h1 {
+      font-weight: 900; }
+    header .header-conteudo h5 {
+      margin-top: 20px; }
+  header .botao-header {
+    background-color: white;
+    font-size: 16px;
+    padding: 10px 70px;
+    text-align: left;
+    color: #133D5B;
+    border-radius: 10px;
+    display: inline-block;
+    font-weight: 400;
+    margin: 50px 0; }
+  header .botao-header:hover {
+    background-color: #CEAA46;
+    font-size: 16px;
+    padding: 10px 70px;
+    text-align: left;
+    color: white;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 400; }
+  @media only screen and (max-width: 425px) {
+    header .header-conteudo {
+      padding: 20px; }
+      header .header-conteudo h1 {
+        font-size: 30px; }
+      header .header-conteudo h4 {
+        font-size: 20px; }
+      header .header-conteudo .header-topo {
+        flex-direction: column; }
+      header .header-conteudo .header-topo .logo {
+        order: 2; } }
 
 h3 {
   text-transform: uppercase;
@@ -7815,7 +7822,8 @@ h2 {
   background-size: 57%, auto; }
   @media only screen and (max-width: 425px) {
     .oque_fazemos {
-      background-image: 45%; } }
+      background-image: 45%;
+      padding-top: 70px; } }
 
 .texto_oque {
   color: white; }
@@ -7865,32 +7873,23 @@ h2 {
     font-size: 12px;
     text-align: left;
     color: #CEAA46; }
+  .quero_conhecer .btn-outline-primary:hover {
+    display: inline-block;
+    text-decoration: none;
+    background-color: white; }
+  @media only screen and (max-width: 425px) {
+    .quero_conhecer {
+      padding-top: 70px; } }
 
 .footer {
-  padding-top: 100px;
+  padding: 100px 0 40px;
   background-color: #0F2C3D;
-  color: white;
-  padding-bottom: 40px; }
+  color: white; }
   .footer h5 {
     text-transform: uppercase; }
   .footer p {
     margin-bottom: 2px; }
   .footer img {
-    padding-top: 20px;
-    max-width: 8%; }
-
-@media (max-width: 500px) {
-  .header-conteudo {
-    padding-left: 0;
-    padding-right: 0;
     padding-top: 20px; }
-  .header-conteudo h1 {
-    font-size: 30px; }
-  .header-conteudo h4 {
-    font-size: 20px; }
-  .header-topo {
-    flex-direction: column; }
-  .header-topo .logo {
-    order: 2; } }
 
 /*# sourceMappingURL=main.css.map */
