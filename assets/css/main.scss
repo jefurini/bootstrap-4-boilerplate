@@ -24,23 +24,16 @@ body {
      font-family: "Lato";
 }
 
-header {
-    background-image: url(/img/hero-01.png);
+.hero {
+    background-image: url(/img/capa.png);
     background-size: cover;
-    background-position: center;
+    background-position: center top;
     background-repeat: no-repeat;
-
-    img {
-        @media only screen and (max-width: 425px){   
-            max-width: 20%;
-            padding-top: 20px;
-        } 
-    }
 
     .header-conteudo {
         text-align: center;
         color: white;
-        padding: 100px;
+        padding: 150px;
 
         h1 {
             font-weight: 900;
@@ -76,14 +69,14 @@ header {
     }
 
     @media only screen and (max-width: 425px) {
-    .header-conteudo {
-        padding: 20px;
+        .header-conteudo {
+            padding: 20px;
 
         h1 {
             font-size: 30px;
         }
     
-        h4 {
+        h5 {
             font-size: 20px;
         }
     
@@ -94,8 +87,8 @@ header {
         .header-topo .logo {
             order: 2;
         }
+        }
     }   
-}
 }
 
 h3 {
@@ -195,6 +188,7 @@ h2 {
 			font-size: 12px;
 			text-align: left;
 			color: #CEAA46;
+            align-items: center;
 		}
 
         .btn-outline-primary:hover { 
@@ -221,7 +215,8 @@ h2 {
 		margin-bottom: 2px;
 	}
 
-	img {
-		padding-top: 20px;
-	}
+    img{
+        padding-top: 30px;
+    }
 }
+

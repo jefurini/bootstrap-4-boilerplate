@@ -7753,24 +7753,20 @@ html {
 body {
   font-family: "Lato"; }
 
-header {
-  background-image: url(/img/hero-01.png);
+.hero {
+  background-image: url(/img/capa.png);
   background-size: cover;
-  background-position: center;
+  background-position: center top;
   background-repeat: no-repeat; }
-  @media only screen and (max-width: 425px) {
-    header img {
-      max-width: 20%;
-      padding-top: 20px; } }
-  header .header-conteudo {
+  .hero .header-conteudo {
     text-align: center;
     color: white;
-    padding: 100px; }
-    header .header-conteudo h1 {
+    padding: 150px; }
+    .hero .header-conteudo h1 {
       font-weight: 900; }
-    header .header-conteudo h5 {
+    .hero .header-conteudo h5 {
       margin-top: 20px; }
-  header .botao-header {
+  .hero .botao-header {
     background-color: white;
     font-size: 16px;
     padding: 10px 70px;
@@ -7780,7 +7776,7 @@ header {
     display: inline-block;
     font-weight: 400;
     margin: 50px 0; }
-  header .botao-header:hover {
+  .hero .botao-header:hover {
     background-color: #CEAA46;
     font-size: 16px;
     padding: 10px 70px;
@@ -7791,15 +7787,15 @@ header {
     text-decoration: none;
     font-weight: 400; }
   @media only screen and (max-width: 425px) {
-    header .header-conteudo {
+    .hero .header-conteudo {
       padding: 20px; }
-      header .header-conteudo h1 {
+      .hero .header-conteudo h1 {
         font-size: 30px; }
-      header .header-conteudo h4 {
+      .hero .header-conteudo h5 {
         font-size: 20px; }
-      header .header-conteudo .header-topo {
+      .hero .header-conteudo .header-topo {
         flex-direction: column; }
-      header .header-conteudo .header-topo .logo {
+      .hero .header-conteudo .header-topo .logo {
         order: 2; } }
 
 h3 {
@@ -7872,7 +7868,8 @@ h2 {
     border-color: #133D5B;
     font-size: 12px;
     text-align: left;
-    color: #CEAA46; }
+    color: #CEAA46;
+    align-items: center; }
   .quero_conhecer .btn-outline-primary:hover {
     display: inline-block;
     text-decoration: none;
@@ -7890,6 +7887,6 @@ h2 {
   .footer p {
     margin-bottom: 2px; }
   .footer img {
-    padding-top: 20px; }
+    padding-top: 30px; }
 
 /*# sourceMappingURL=main.css.map */
